@@ -1,7 +1,10 @@
 #
 # This policy configuration will be used by all products that
-# inherit from AOSiP
+# inherit from LLuvia
 #
 
-BOARD_SEPOLICY_DIRS += \
-    device/lluvia/sepolicy/common
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+    device/lluvia/sepolicy/common/public
+
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+    device/lluvia/sepolicy/common/private
