@@ -4,5 +4,5 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/gzosp/sepolicy/qcom/common \
-    device/gzosp/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+    device/lluvia/sepolicy/qcom/common \
+    device/lluvia/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
