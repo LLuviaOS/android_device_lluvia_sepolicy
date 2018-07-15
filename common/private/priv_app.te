@@ -5,3 +5,5 @@ dontaudit priv_app proc_interrupts:file read;
 allow platform_app cache_file:dir { search write add_name };
 allow platform_app cache_recovery_file:dir { search write add_name };
 allow platform_app cache_recovery_file:file { create write open getattr setattr };
+
+allow priv_app ota_package_file:dir create_dir_perms;
