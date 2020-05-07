@@ -4,4 +4,4 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/aosip/sepolicy/qcom
+    device/lluvia/sepolicy/qcom
